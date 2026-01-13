@@ -1,10 +1,10 @@
-=> PROJECT OVERVIEW
+# PROJECT OVERVIEW
 This project implements a console-based chatbot that can answer user queries based on the content of a given website URL.
 
 The chatbot scrapes the website using Beautiful Soup, processes the extracted text, and uses the GROQ LLM API to generate context-aware responses.
 
 
-=> PLATFORM REQUIREMENTS
+# PLATFORM REQUIREMENTS
 This project runs on:
 
 1. Operating System: Windows / macOS / Linux
@@ -14,7 +14,7 @@ This project runs on:
 3. Execution Mode: Local machine (Command Line / Terminal)
 
 
-=> DEPENDENCIES
+# DEPENDENCIES
 All required dependencies are listed in requirements.txt
 
 Install them using:
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ************************************
 
 
-=> API KEY REQUIREMENT
+# API KEY REQUIREMENT
 Steps to Set Up API Key:
 
 1. Create an account on the GROQ Console
@@ -40,11 +40,12 @@ Steps to Set Up API Key:
 **********************************
 
 
-=> HOW TO RUN THE PROJECT
+# HOW TO RUN THE PROJECT
 Run the application :
 
 write this command in your terminal:
 
 *****************
 python main.py
+
 *****************

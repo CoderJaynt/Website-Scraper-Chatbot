@@ -1,16 +1,6 @@
-import os
 import requests
 from bs4 import BeautifulSoup
-from dotenv import load_dotenv
 from groq import Groq
-
-
-def load_environment():
-    load_dotenv()
-    api_key = os.getenv("GROQ_API_KEY")
-
-    return api_key
-
 
 def fetch_website_content(url):
     try:
@@ -94,7 +84,7 @@ def main():
             print("ChatBot exited")
             break
 
-        api_key = load_environment()
+        api_key = ""       ## PUT YOUR API KEY OF GROQ
 
         prompt = build_prompt(website_content, user_query)
         answer = query_groq(api_key, prompt)
@@ -102,4 +92,5 @@ def main():
         print(f"\nBot: {answer}\n")
 
 if __name__ == "__main__":
+
     main()

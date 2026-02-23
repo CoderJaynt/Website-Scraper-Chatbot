@@ -1,6 +1,5 @@
 # 🌐 Website QA Chatbot
-<p align="center"> <img src="https://img.shields.io/badge/LLM-GROQ-purple?style=for-the-badge" /> <img src="https://img.shields.io/badge/Web%20Scraping-BeautifulSoup-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python" /> <img src="https://img.shields.io/badge/Mode-Console%20App-orange?style=for-the-badge" /> </p>
-<br> <div align="center"> <h2>📚 Project Overview</h2> </div> <br> <div style=" background: linear-gradient(135deg,#141E30,#243B55); padding:25px; border-radius:18px; box-shadow: 0px 0px 20px rgba(36,59,85,0.5); color:white; line-height:1.8; "> <h3>🤖 What Does This Project Do?</h3>
+<p align="center"> <img src="https://img.shields.io/badge/LLM-GROQ-purple?style=for-the-badge" /> <img src="https://img.shields.io/badge/Web%20Scraping-BeautifulSoup-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/Frontend-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit" /> <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python" /> </p>
 
 ### 📚 Project Overview
 <div style=" background: linear-gradient(135deg,#141E30,#243B55); padding:25px; border-radius:18px; box-shadow: 0px 0px 20px rgba(36,59,85,0.5); color:white; line-height:1.8; ">
@@ -18,6 +17,21 @@ The system:
 3. Sends structured context to GROQ LLM API
 
 4. Generates intelligent, context-aware responses
+
+</div>
+
+## 🌐 Live Demo
+<div style=" background: linear-gradient(135deg,#000428,#004e92); padding:30px; border-radius:20px; box-shadow: 0px 0px 25px rgba(0,78,146,0.6); color:white; text-align:left; line-height:1.8; ">🚀 Try the App Live
+
+#### Experience the deployed chatbot here:
+
+<br> <a href="https://website-scraper-chatbot-r8zfc8hgnpx7saqxt2tw82.streamlit.app/" target="_blank"> <img src="https://img.shields.io/badge/Launch-Live%20App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white"> </a>
+
+<br><br>
+
+* ⚡ Fully deployed on Streamlit Cloud
+* 🤖 Powered by GROQ LLM
+* 🌍 Works with any public website
 
 </div>
 
@@ -71,3 +85,4 @@ Open your terminal and run:
 
 
 #### ⭐ If you found this useful, consider giving the repo a star.
+
